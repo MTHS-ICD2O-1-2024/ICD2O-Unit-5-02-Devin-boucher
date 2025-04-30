@@ -13,7 +13,7 @@ function checkNumber () {
   // Get input values
   const isPositive = document.getElementById('option-positive').checked
 
-  if (isPositive) {
+  if (isPositive === true) {
     number = Math.floor(Math.random() * 6) + 1
   } else {
     number = -1 * (Math.floor(Math.random() * 6) + 1)
